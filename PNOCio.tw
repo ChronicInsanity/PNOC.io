@@ -279,8 +279,11 @@
 
 :: M5
 {M5.mov|1:40|instant}
-[[PNOC is escaping|M51]]
-[[011001100...|M52b]]
+[[Secure PNOC|M51]]
+[[Secure PNOC|M51]]
+[[Secure PNOC|M51]]
+[[Secure PNOC|M51]]
+[[Secure PNOC|M51]]
 
 
 :: M51
@@ -602,8 +605,11 @@
 
 :: T5
 {T5.mov|2:00|instant}
-[[PNOC is escaping|T51]]
-[[011001100...|T61b]]
+[[Secure PNOC|T51]]
+[[Secure PNOC|T51]]
+[[Secure PNOC|T51]]
+[[Secure PNOC|T51]]
+[[Secure PNOC|T51]]
 
 
 :: G3g2q1t
@@ -772,8 +778,11 @@
 
 :: G5
 {G5.mov|1:45|instant}
-[[PNOC is escaping|G51]]
-[[011001100...|G52b]]
+[[Secure PNOC|G51]]
+[[Secure PNOC|G51]]
+[[Secure PNOC|G51]]
+[[Secure PNOC|G51]]
+[[Secure PNOC|G51]]
 
 
 :: G52b
