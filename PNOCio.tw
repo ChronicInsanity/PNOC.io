@@ -1,0 +1,912 @@
+﻿:: Start
+[[Click here to begin|V1]]
+
+
+:: J1
+{J1.mov|1:04|instant}
+[[Yes|J2]]
+[[I understand how this works|J2]]
+
+
+:: J4
+{J4.mov|0:05|instant}
+[[Begin|G1]]
+
+
+:: G1
+{G1.mov|0:39|instant}
+[[Yes|G3g1]]
+[[No|G2]]
+
+
+:: G3g1
+{G3g1.mov|0:43|instant}
+[[Are you there?|P11g]]
+[[Hello PNOC|P11g]]
+
+
+:: G2
+{G2.mov|2:16|instant}
+[[How's your day?|G3g2q1]]
+[[Who made you?|G3g2q2]]
+[[What does your name mean?|G3g2q3]]
+
+
+
+:: G3g2q1
+{G3g2a.mov|1:24|instant}
+[[Are you there?|P11g]]
+[[Hello PNOC|P11g]]
+
+
+:: G4
+{G4.mov|0:12|instant}
+[[Yes|G41]]
+[[No|G41]]
+
+
+:: J6g
+{J6.mov|0:20|instant}
+[[Good|J7g]]
+[[Not so good|J75g]]
+
+
+:: J75g
+{J7.5.mov|1:21|instant}
+[[He/Him|J85g]]
+[[They/Them|J8g]]
+
+
+:: J8g
+{J8.mov|0:13|instant}
+[[Study 1|j3M1]]
+[[Study 3|j5T1]]
+
+
+:: j3M1
+{J3.mov|0:05|instant}
+[[Begin|M1g]]
+
+
+:: M1g
+{M1.mov|0:40|instant}
+[[Yes|M3m1g]]
+[[No|M2g]]
+
+
+
+:: M3m1g
+{M3m1.mov|1:46|instant}
+[[Image A|P20mg]]
+[[Image B|P20mg]]
+[[Image C|P20mg]]
+
+
+:: M4g
+{M4.mov|0:05|instant}
+[[Back to HR|J9gm]]
+
+
+:: J9gm
+{J9.mov|0:05|instant}
+[[Final study|T5]]
+
+
+:: P20mg
+{PNOC20.mov|3:32|instant}
+[[Image A|M4g]]
+[[Image B|M4g]]
+[[Image C|M4g]]
+
+
+:: V1
+{V1.mov|1:04|instant}
+[[Yes|J1]]
+
+
+
+:: J2
+{J2.mov|1:46|instant}
+[[Study 1|J3]]
+[[Study 2|J4]]
+[[Study 3|J5]]
+
+
+:: J5
+{J5.mov|0:05|instant}
+[[Begin|T1]]
+
+
+:: T1
+{T1.mov|0:49|instant}
+[[Yes|T3t1]]
+[[No|T2]]
+
+
+:: P20mt
+{PNOC20.mov|3:32|instant}
+[[Image A|M4t]]
+[[Image B|M4t]]
+[[Image C|M4t]]
+
+
+:: G3g2q3
+{G3g2c.mov|1:24|instant}
+[[Are you there?|P11g]]
+[[Hello PNOC|P11g]]
+
+
+:: G3g2q2
+{G3g2b.mov|1:24|instant}
+[[Are you there?|P11g]]
+[[Hello PNOC|P11g]]
+
+
+:: J7g
+{J7.mov|1:13|instant}
+[[He/Him|J85g]]
+[[They/Them|J8g]]
+
+
+:: T3t2q1g
+{T3t2a.mov|1:53|instant}
+[[Are you there?|P20tg]]
+[[Hello PNOC|P20tg]]
+
+
+:: J85g
+{J8.5.mov|0:17|instant}
+[[Study 1|j3M1]]
+[[Study 3|j5T1]]
+
+
+:: M2g
+{M2.mov|2:05|instant}
+[[How's your day?|M3m2q1g]]
+[[Who made you?|M3m2q2g]]
+[[What does your name mean?|M3m2q3g]]
+
+
+:: M3m2q3g
+{M3m2c.mov|2:24|instant}
+[[Image A|P20mg]]
+[[Image B|P20mg]]
+[[Image C|P20mg]]
+
+
+:: j5T1
+{J5.mov|0:05|instant}
+[[Begin|T1g]]
+
+
+:: P20tg
+{PNOC20.mov|3:32|instant}
+[[Yes|T4g]]
+[[No|T4g]]
+
+
+:: M3m2q2g
+{M3m2b.mov|2:24|instant}
+[[Image A|P20mg]]
+[[Image B|P20mg]]
+[[Image C|P20mg]]
+
+
+:: P11t
+{PNOC11.mov|0:06|instant}
+[[Feeling good|P12t]]
+[[Could be better|P12t]]
+
+
+:: J3
+{J3.mov|0:05|instant}
+[[Begin|M1]]
+
+
+:: M1
+{M1.mov|0:40|instant}
+[[Yes|M3m1]]
+[[No|M2]]
+
+
+:: M2t
+{M2.mov|2:05|instant}
+[[How's your day?|M3m2q1t]]
+[[Who made you?|M3m2q2t]]
+[[What does your name mean?|M3m2q3t]]
+
+
+:: T2g
+{T2.mov|1:55|instant}
+[[How's your day?|T3t2q1g]]
+[[Who made you?|T3t2q2g]]
+[[What does your name mean?|T3t2q3g]]
+
+
+:: T1g
+{T1.mov|0:49|instant}
+[[Yes|T3t1g]]
+[[No|T2g]]
+
+
+:: P12t
+{PNOC12.mov|0:05|instant}
+[[Do you prefer cats?|P13t]]
+[[Do you prefer dogs?|P13t]]
+
+
+:: J6t
+{J6.mov|0:20|instant}
+[[Good|J7t]]
+[[Not so good|J75t]]
+
+
+:: T2
+{T2.mov|1:55|instant}
+[[How's your day?|T3t2q1]]
+[[Who made you?|T3t2q2]]
+[[What does your name mean?|T3t2q3]]
+
+
+
+:: T3t1
+{T3t1.mov|1:13|instant}
+[[Are you there?|P11t]]
+[[Hello PNOC|P11t]]
+
+
+:: T3t1g
+{T3t1.mov|1:13|instant}
+[[Are you there?|P20tg]]
+[[Hello PNOC|P20tg]]
+
+
+
+:: T4
+{T4.mov|0:05|instant}
+[[Back to HR|J6t]]
+
+
+:: T4g
+{T4.mov|0:05|instant}
+[[Back to HR|J9gt]]
+
+
+:: J9gt
+{J9.mov|0:05|instant}
+[[Final study|M5]]
+
+
+:: M5
+{M5.mov|1:40|instant}
+[[PNOC is escaping|M51]]
+[[011001100...|M52b]]
+
+
+:: M51
+{M5.1.mov|3:29|instant}
+[[Misunderstanding|M52]]
+[[Escape attempt|M6]]
+
+
+:: M52
+{M5.2.mov|0:05|instant}
+[[Credits|end]]
+
+
+:: M2
+{M2.mov|2:05|instant}
+[[How's your day?|M3m2q1]]
+[[Who made you?|M3m2q2]]
+[[What does your name mean?|M3m2q3]]
+
+
+:: M3m2q3
+{M3m2c.mov|2:24|instant}
+[[Image A|P1]]
+[[Image B|P1]]
+[[Image C|P1]]
+
+
+:: M3m1
+{M3m1.mov|1:46|instant}
+[[Image A|P1]]
+[[Image B|P1]]
+[[Image C|P1]]
+
+
+:: T3t2q1
+{T3t2a.mov|1:53|instant}
+[[Are you there?|P11t]]
+[[Hello PNOC|P11t]]
+
+
+:: J7t
+{J7.mov|1:13|instant}
+[[He/Him|J85t]]
+[[They/Them|J8t]]
+
+
+:: M1t
+{M1.mov|0:40|instant}
+[[Yes|M3m1t]]
+[[No|M2t]]
+
+
+
+:: M3m2q1g
+{M3m2a.mov|2:24|instant}
+[[Image A|P20mg]]
+[[Image B|P20mg]]
+[[Image C|P20mg]]
+
+
+:: T3t2q3
+{T3t2c.mov|1:53|instant}
+[[Are you there?|P11t]]
+[[Hello PNOC|P11t]]
+
+
+
+:: T3t2q2
+{T3t2b.mov|1:53|instant}
+[[Are you there?|P11t]]
+[[Hello PNOC|P11t]]
+
+
+:: J75t
+{J7.5.mov|1:21|instant}
+[[He/Him|J85t]]
+[[They/Them|J8t]]
+
+
+:: J3m1
+{J3.mov|0:05|instant}
+[[Begin|M1t]]
+
+
+:: M3m1t
+{M3m1.mov|1:46|instant}
+[[Image A|P20mt]]
+[[Image B|P20mt]]
+[[Image C|P20mt]]
+
+
+:: M4t
+{M4.mov|0:05|instant}
+[[Back to HR|J9tm]]
+
+
+:: J9tm
+{J9.mov|0:05|instant}
+[[Final study|G5]]
+
+
+:: M52b
+{M5.2 shortb.mov|0:05|instant}
+[[Credits|end]]
+
+
+:: M6
+{M6.mov|4:50|instant}
+[[Delete him|M7]]
+[[fR 33 me|M52short]]
+
+
+:: M3m2q2
+{M3m2b.mov|2:24|instant}
+[[Image A|P1]]
+[[Image B|P1]]
+[[Image C|P1]]
+
+
+:: M3m2q1
+{M3m2a.mov|2:24|instant}
+[[Image A|P1]]
+[[Image B|P1]]
+[[Image C|P1]]
+
+
+:: M4
+{M4.mov|0:05|instant}
+[[Back to HR|J6]]
+
+
+:: P14t
+{PNOC14.mov|0:14|instant}
+[[Horses|P15t]]
+[[Parrots|P15t]]
+
+
+:: P13t
+{PNOC13.mov|0:34|instant}
+[[Cats|P14t]]
+[[Dogs|P14t]]
+
+
+:: P11g
+{PNOC11.mov|0:06|instant}
+[[Feeling good|P12g]]
+[[Could be better|P12g]]
+
+
+:: J8t
+{J8.mov|0:13|instant}
+[[Study 1|J3m1]]
+[[Study 2|J4g1]]
+
+
+:: J85t
+{J8.5.mov|0:17|instant}
+[[Study 1|J3m1]]
+[[Study 2|J4g1]]
+
+
+:: J4g1
+{J4.mov|0:05|instant}
+[[Begin|G1t]]
+
+
+:: T3t2q2g
+{T3t2b.mov|1:53|instant}
+[[Are you there?|P20tg]]
+[[Hello PNOC|P20tg]]
+
+
+:: G1t
+{G1.mov|0:39|instant}
+[[Yes|G3g1t]]
+[[No|G2t]]
+
+
+:: T3t2q3g
+{T3t2c.mov|1:53|instant}
+[[Are you there?|P20tg]]
+[[Hello PNOC|P20tg]]
+
+
+:: M7
+{M7.mov|0:05|instant}
+[[Credits|end]]
+
+
+:: M52short
+{M5.2 shorte.mov|0:05|instant}
+[[Credits|end]]
+
+
+:: G3g2q1m
+{G3g2a.mov|1:24|instant}
+[[Are you there?|P20gm]]
+[[Hello PNOC|P20gm]]
+
+
+:: J6
+{J6.mov|0:20|instant}
+[[Good|J7]]
+[[Not so good|J75]]
+
+
+:: J75
+{J7.5.mov|1:21|instant}
+[[He/Him|J85]]
+[[They/Them|J8]]
+
+
+:: J8
+{J8.mov|0:13|instant}
+[[Study 2|j4g1]]
+[[Study 3|j5t1]]
+
+
+:: j4g1
+{J4.mov|0:05|instant}
+[[Begin|G1m]]
+
+
+:: M3m2q1t
+{M3m2a.mov|2:24|instant}
+[[Image A|P20mt]]
+[[Image B|P20mt]]
+[[Image C|P20mt]]
+
+
+
+:: M3m2q2t
+{M3m2b.mov|2:24|instant}
+[[Image A|P20mt]]
+[[Image B|P20mt]]
+[[Image C|P20mt]]
+
+
+
+:: M3m2q3t
+{M3m2c.mov|2:24|instant}
+[[Image A|P20mt]]
+[[Image B|P20mt]]
+[[Image C|P20mt]]
+
+
+
+:: G2t
+{G2.mov|2:16|instant}
+[[How's your day?|G3g2q1t]]
+[[Who made you?|G3g2q2t]]
+[[What does your name mean?|G3g2q3t]]
+
+
+:: G3g1t
+{G3g1.mov|0:43|instant}
+[[Are you there?|P20gt]]
+[[Hello PNOC|P20gt]]
+
+
+
+:: G4t
+{G4.mov|0:12|instant}
+[[Yes|G41t]]
+[[No|G41t]]
+
+
+:: J9tg
+{J9.mov|0:05|instant}
+[[Final study|M5]]
+
+
+:: G41
+{G4.1.mov|0:05|instant}
+[[Next|J6g]]
+
+
+
+:: G3g2q2t
+{G3g2b.mov|1:24|instant}
+[[Are you there?|P20gt]]
+[[Hello PNOC|P20gt]]
+
+
+
+:: J7
+{J7.mov|1:13|instant}
+[[He/Him|J85]]
+[[They/Them|J8]]
+
+
+:: J85
+{J8.5.mov|0:17|instant}
+[[Study 2|j4g1]]
+[[Study 3|j5t1]]
+
+
+:: G1m
+{G1.mov|0:39|instant}
+[[Yes|G3g1m]]
+[[No|G2m]]
+
+
+:: G4m
+{G4.mov|0:12|instant}
+[[Yes|G41m]]
+[[No|G41m]]
+
+
+:: j5t1
+{J5.mov|0:05|instant}
+[[Begin|T1m]]
+
+
+:: J9mg
+{J9.mov|0:05|instant}
+[[Final study|T5]]
+
+
+:: T5
+{T5.mov|2:00|instant}
+[[PNOC is escaping|T51]]
+[[011001100...|T61b]]
+
+
+:: G3g2q1t
+{G3g2a.mov|1:24|instant}
+[[Are you there?|P20gt]]
+[[Hello PNOC|P20gt]]
+
+
+
+:: G3g2q3t
+{G3g2c.mov|1:24|instant}
+[[Are you there?|P20gt]]
+[[Hello PNOC|P20gt]]
+
+
+
+:: P20gt
+{PNOC20.mov|3:32|instant}
+[[Image Yes|G4t]]
+[[Image No|G4t]]
+
+
+
+:: G41t
+{G4.1.mov|0:05|instant}
+[[Next|J9tg]]
+
+
+
+:: T1m
+{T1.mov|0:49|instant}
+[[Yes|T3t1m]]
+[[No|T2m]]
+
+
+:: T2m
+{T2.mov|1:55|instant}
+[[How's your day?|T3t2q1m]]
+[[Who made you?|T3t2q2m]]
+[[What does your name mean?|T3t2q3m]]
+
+
+
+:: G2m
+{G2.mov|2:16|instant}
+[[How's your day?|G3g2q1m]]
+[[Who made you?|G3g2q2m]]
+[[What does your name mean?|G3g2q3m]]
+
+
+
+
+:: G3g1m
+{G3g1.mov|0:43|instant}
+[[Are you there?|P20gm]]
+[[Hello PNOC|P20gm]]
+
+
+
+:: G41m
+{G4.1.mov|0:05|instant}
+[[Next|J9mg]]
+
+
+:: P12g
+{PNOC12.mov|0:05|instant}
+[[Do you prefer cats?|P13g]]
+[[Do you prefer dogs?|P13g]]
+
+
+:: P1
+{PNOC1.mov|0:03|instant}
+[[Image A|P2]]
+[[Image B|P2]]
+[[Image C|P2]]
+
+
+:: P13g
+{PNOC13.mov|0:34|instant}
+[[Cats|P14g]]
+[[Dogs|P14g]]
+
+
+:: P15g
+{PNOC15.mov|0:28|instant}
+[[Clear skies|P16g]]
+[[Cloudy|P16g]]
+
+
+:: P17g
+{PNOC17g.mov|0:09|instant}
+[[Absolutely|G4]]
+[[I'm not sure|G4]]
+
+
+:: P15t
+{PNOC15.mov|0:28|instant}
+[[Clear skies|P16t]]
+[[Cloudy|P16t]]
+
+
+:: T3t1m
+{T3t1.mov|1:13|instant}
+[[Are you there?|P20tm]]
+[[Hello PNOC|P20tm]]
+
+
+
+:: T4m
+{T4.mov|0:05|instant}
+[[Back to HR|J9mt]]
+
+
+:: G3g2q2m
+{G3g2b.mov|1:24|instant}
+[[Are you there?|P20gm]]
+[[Hello PNOC|P20gm]]
+
+
+:: G3g2q3m
+{G3g2c.mov|1:24|instant}
+[[Are you there?|P20gm]]
+[[Hello PNOC|P20gm]]
+
+
+:: P16t
+{PNOC16.mov|0:17|instant}
+[[Yes|P17t]]
+[[No|P17t]]
+
+
+:: T51
+{T5.1.mov|6:21|instant}
+[[Let's do this!|M9]]
+[[ER 45E me|T6]]
+
+
+:: T6
+{T6.mov|0:05|instant}
+[[Credits|end]]
+
+
+:: P2
+{PNOC2.mov|0:03|instant}
+[[Image A|P3]]
+[[Image B|P3]]
+[[Image C|P3]]
+
+
+:: P14g
+{PNOC14.mov|0:14|instant}
+[[Horses|P15g]]
+[[Parrots|P15g]]
+
+
+:: P16g
+{PNOC16.mov|0:17|instant}
+[[Yes|P17g]]
+[[No|P17g]]
+
+
+:: J9mt
+{J9.mov|0:05|instant}
+[[Final study|G5]]
+
+
+:: G5
+{G5.mov|1:45|instant}
+[[PNOC is escaping|G51]]
+[[011001100...|G52b]]
+
+
+:: G52b
+{G5.2 shortb.mov|0:05|instant}
+[[Credits|end]]
+
+
+:: T3t2q3m
+{T3t2c.mov|1:53|instant}
+[[Are you there?|P20tm]]
+[[Hello PNOC|P20tm]]
+
+
+:: P17t
+{PNOC17.mov|0:06|instant}
+[[Absolutely|T4]]
+[[I'm not sure|T4]]
+
+
+:: M9
+{M(t5.2).mov|0:05|instant}
+[[Credits|end]]
+
+
+:: P3
+{PNOC3.mov|0:03|instant}
+[[Image A|P4]]
+[[Image B|P4]]
+[[Image C|P4]]
+
+
+:: P5
+{PNOC5.mov|0:03|instant}
+[[Image A|P6]]
+[[Image B|P6]]
+[[Image C|P6]]
+
+
+:: G51
+{G5.1.mov|3:03|instant}
+[[Misunderstanding|G52]]
+[[Escape attempt|G6]]
+
+
+:: P20gm
+{PNOC20.mov|3:32|instant}
+[[No|G4m]]
+[[Yes|G4m]]
+
+
+
+:: G6
+{G6.mov|5:05|instant}
+[[Delete him|G7]]
+[[fR 33 me|G52short]]
+
+
+
+
+
+:: T3t2q1m
+{T3t2a.mov|1:53|instant}
+[[Are you there?|P20tm]]
+[[Hello PNOC|P20tm]]
+
+
+:: T3t2q2m
+{T3t2b.mov|1:53|instant}
+[[Are you there?|P20tm]]
+[[Hello PNOC|P20tm]]
+
+
+:: P4
+{PNOC4.mov|0:03|instant}
+[[Image A|P5]]
+[[Image B|P5]]
+[[Image C|P5]]
+
+
+:: P6
+{PNOC6.mov|0:03|instant}
+[[Image A|M4]]
+[[Image B|M4]]
+[[Image C|M4]]
+
+
+:: T61b
+{T6 shortb.mov|0:05|instant}
+[[Credits|end]]
+
+
+:: G7
+{G7.mov|0:05|instant}
+[[Credits|end]]
+
+
+:: P20tm
+{PNOC20.mov|3:32|instant}
+[[Yes|T4m]]
+[[No|T4m]]
+
+
+
+:: G52
+{G5.2.mov|0:05|instant}
+[[Credits|end]]
+
+
+:: G52short
+{G5.2 shorte.mov|0:05|instant}
+[[Credits|end]]
+
+
+:: end
+Thanks for taking part in PNOC.io
+-
+There are many alternate endings to this expereince, so feel free to use the back arrows in the bottom left corner to navigate around and find the rest.
+-
+Cast
+Dr Yaseen - Vimal Korpal
+Kyle - Jack Henderson
+Dr Mason - Abbi Davey
+Dr Grouse - Iain Gibbons
+Dr Tindall - Miles Kinsley
+-
+Directed by Joe Strickland
+Designed and Produced by Chronic Insanity
+Presented in association with Camden People's Theatre
+-
+If you enjoyed the experience, please let us know what you thought, and feel free to spread the word!
+Twitter: @CITheatre
+Insta/Facebook: @chronicinsanitytheatre
+-
+If you fancy supporting us so that we can make more digital theatre in the future, you can donate to us at ko-fi.com/chronicinsanity
+
+
