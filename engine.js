@@ -21,7 +21,7 @@ var ANIMATED = true;
 var INSTANT_CHOICES = false;
 //preload all the videos or just the next choices?
 //if true you are 99% the playback will be smooth but it may be a lot to load
-var PRELOAD_ALL = true;
+var PRELOAD_ALL = false;
 //activates the browser base video control, not generally recommended 
 //as it would visually interfere with the choices overlay 
 var DEFAULT_VIDEO_CONTROLS = false;
