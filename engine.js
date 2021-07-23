@@ -1,7 +1,7 @@
 
 // SETTINGS ////////////////////////////////////////////////////////
 var FILE = "PNOCio.tw";
-var VIDEO_PATH = "/videos/";
+var VIDEO_PATH = "https://dl.dropbox.com/s/";
 
 //once you reach the end of the clip select the first choice (true)
 //if false disables the bar
@@ -38,7 +38,7 @@ var FFD10 = true;
 //allow rewind 10 seconds
 var REWIND10 = true;
 //time the controls stay visible after mouse moved
-var FADE_TIME = 1;
+var FADE_TIME = 2000;
 
 ///////////////////////////////////////////////////////////////////
 
